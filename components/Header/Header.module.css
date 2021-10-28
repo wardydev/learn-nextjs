@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.15rem 2em;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 3rem;
+}
+
+.menus {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
