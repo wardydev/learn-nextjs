@@ -4,7 +4,7 @@ import styles from './Home.module.css'
 
 export default function app() {
     return (
-        <Layout>
+        <Layout title="home page">
             <h1 className={styles.home}>Home</h1>
         </Layout>
     )
