@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -8,9 +9,15 @@ export default function Header() {
                     <h4>myLogo</h4>
                 </div>
                 <ul className={styles.menus}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">User</a></li>
+                    <li>
+                        <Link href="/"><a className={styles.link}>Home</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/blog"><a className={styles.link}>Blog</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/user"><a className={styles.link}>User</a></Link>
+                    </li>
                 </ul>
             </div>
         </header>

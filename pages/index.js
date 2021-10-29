@@ -5,9 +5,7 @@ import styles from './Home.module.css'
 export default function app() {
     return (
         <Layout>
-            <div className={styles.home}>
-                This my first blog
-            </div>
+            <h1 className={styles.home}>Home</h1>
         </Layout>
     )
 }

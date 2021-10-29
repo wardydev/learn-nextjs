@@ -13,4 +13,11 @@
     width: 200px;
     justify-content: space-around;
     align-items: center;
+    color: rgb(6, 6, 56);
+    list-style-type: none;
+    }
+
+    .link {
+        text-decoration: none;
+        color: rgb(6, 6, 56);
 }
